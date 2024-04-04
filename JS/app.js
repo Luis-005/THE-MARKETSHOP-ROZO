@@ -68,10 +68,9 @@ window.addEventListener('DOMContentLoaded', () => {
     const modal = document.querySelector('.modal');
     const closeModal = document.querySelector('.close');
 
-    modal.addEventListener('click', (event) => {
-    if (event.target === closeModal) {
+    closeModal.addEventListener('click', () => {
         modal.style.display = 'none';
-    }
+        
 });
 
 
