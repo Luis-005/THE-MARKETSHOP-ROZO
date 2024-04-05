@@ -70,9 +70,10 @@ header{
     cursor: pointer;
 }
 
-.perfilCarrito > ul > li > span{
+.perfilCarrito > ul > li > a{
     font-size: 30px;  
     cursor: pointer;
+    text-decoration: none;
 }
 main{
     width: 100%;
